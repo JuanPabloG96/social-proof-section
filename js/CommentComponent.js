@@ -6,7 +6,7 @@ const URL = 'json/data.json';
 const CommentTemplate = (id, profileImg, username, verified, comment) => {
   let verifiedText = verified ? 'Verified Buyer' : 'Purchase Not Verified';
 
-  return `<article class="comment-container comment-container-${id}" key="key-${id}">
+  return `<article class="comment-container comment-container-${id}">
   <section class="profile-info">
     <img src="${profileImg}" alt="${username} profile image" class="profileImg">
     <div class="user-info">

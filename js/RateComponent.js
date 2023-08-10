@@ -9,7 +9,7 @@ const ratingTemplate = (id, stars, category) => {
     starImages += '<img src="images/icon-star.svg" alt="star icon">';
   }
 
-  return `<div class="rating-container rating-container-${id}" key="key-${id}">
+  return `<div class="rating-container rating-container-${id}">
   <div class="star-container">${starImages}</div>
   <p class="rating-description">Rated ${stars} Stars in ${category}</p>
   </div>`
