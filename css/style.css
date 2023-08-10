@@ -176,6 +176,7 @@ body {
   }
 
   .rating-section {
+    justify-content: center;
     width: 100%;
   }
 
