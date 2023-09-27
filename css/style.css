@@ -207,7 +207,7 @@ body {
   }
 
   .comment-container {
-    max-height: 80%;
+    height: fit-content;
   }
 
   .comment-container-1 {
